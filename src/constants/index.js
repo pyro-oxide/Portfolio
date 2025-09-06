@@ -158,27 +158,19 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Intern",
-    job: "Intern at Eissenvault, India",
+    title: "Internship",
+    job: "Intern at Eisenvault, India",
     date: "July 09, 2025 to July 31, 2025",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "During my internship at EisenVault, a leading Document Management System provider in India, I gained hands-on experience in full-stack web development. The internship provided a strong foundation in front-end and back-end technologies crucial for modern web applications. I learned the core principles of HTML, CSS, and JavaScript, enabling me to design responsive and user-friendly web interfaces. On the backend, I was introduced to MySQL, where I worked on setting up and managing databases essential for storing and retrieving document metadata securely and efficiently. As part of the practical training, I participated in building a basic web application, which included structuring content with HTML, styling with CSS, adding interactivity using JavaScript, and connecting it to a MySQL database to simulate real-world document storage and retrieval operations. The experience deepened my understanding of how secure document management systems function and gave me valuable insight into professional software development workflows.",
     ],
   },
   {
-    title: "Intern",
+    title: "Internship",
     job: "Intern at Avrij, Canada",
     date: "May 13, 2025 to July 5, 2025",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      " During my internship at Avrij, I had the opportunity to learn about the implementation of AI using JavaScript.",
     ],
   },
   {
@@ -187,12 +179,13 @@ export const experiences = [
     date: "2024-Present",
     contents: [
       "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Created an App in Python for the school Boys Bank",
-      "Created a Web App for the schools 90th Founders Day (DS90)",
+      "Created an app using Python, PyQt5 and SQLite for the school Boys Bank.",
+      "Created a WebApp for the schools 90th Founders Day (DS90) using NextJs, React, TailwindCSS, Cloudflare and Supabase.",
       "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
     ],
   },
 ];
+
 // export const reviews = [
 //   {
 //     name: "Jack",
