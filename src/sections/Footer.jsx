@@ -16,7 +16,7 @@ const Footer = () => {
                 </a>
             ))}
         </div>
-        <p>© 2025 Samarth. All Rights Reserved</p>
+        <p>© 2025 Samarth. Mentored by Shubham Sharma. All Rights Reserved</p>
     </section>
   )
 }
