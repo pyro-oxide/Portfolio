@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="bg-gradient-to-r from transparent via-neutral-700 to-transparent mb-4 h-[1px] w-full" />
         <div className="flex gap-2">
             <p >Mentored by</p>
-            <a className="hover:text-white sm:text-white" href="https://www.linkedin.com/in/shubham-sharma-34aa7714b/">Shubham Sharma</a>
+            <a className=" text-white " href="https://www.linkedin.com/in/shubham-sharma-34aa7714b/">Shubham Sharma</a>
         </div>
         <div className="flex gap-3">
             {mySocials.map((social, index) => (
