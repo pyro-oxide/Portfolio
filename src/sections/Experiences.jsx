@@ -4,11 +4,13 @@ import { experiences } from '../constants'
 
 const Experiences = () => {
   return (
-    <div className="w-full">
-        <Timeline 
-        data={experiences}
-        />
-    </div>
+    <section id="work">
+      <div className="w-full">
+          <Timeline 
+          data={experiences}
+          />
+      </div>
+    </section>
   )
 }
 
