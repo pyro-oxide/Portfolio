@@ -8,6 +8,7 @@ const Contact = () => {
       name: "",
       email: "",
       message: "",
+      mobileNumber: "",
     })
   const [isLoading, setIsLoading] = useState(false)
 
@@ -34,6 +35,7 @@ const Contact = () => {
         await emailjs.send("service_vcfld57", "template_lajc3fm", {
             from_name: formData.name,
             to_name: "Samarth",
+            from_mobileNumber: formData.mobileNumber,
             from_email: formData.email,
             to_email: "samarth.pundeer@gmail.com",
             message: formData.message,
@@ -44,6 +46,7 @@ const Contact = () => {
             name: "",
             email: "",
             message: "",
+            mobileNumber: "",
         })
      } catch (error) {
         setIsLoading(false)
@@ -83,6 +86,20 @@ const Contact = () => {
                     placeholder="John Doe" 
                     autoComplete="name"
                     value={formData.name}
+                    onChange={handleChange}
+                    required
+                    />
+                </div>
+                <div className="mb-5">
+                    <label htmlFor="mobileNumber" className="field-label">Mobile Number</label>
+                    <input 
+                    className="field-input field-input-focus"
+                    id="mobileNumber" 
+                    name="mobileNumber" 
+                    type="tel"
+                    placeholder="+91 98975 41825" 
+                    autoComplete="tel"
+                    value={formData.mobileNumber}
                     onChange={handleChange}
                     required
                     />
