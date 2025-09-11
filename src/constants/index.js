@@ -101,38 +101,35 @@ export const myProjects = [
   },
   // {
   //   id: 4,
-  //   title: "C++ Game Engine",
+  //   title: "Password Manager Google Extension",
   //   description:
-  //     "A lightweight C++ game engine designed for 2D and 3D game development.",
+  //     "Google Extension version of the Password Manager",
   //   subDescription: [
-  //     "Built a powerful rendering engine using OpenGL and C++.",
-  //     "Developed a physics engine with collision detection and particle effects.",
-  //     "Implemented a scripting system for easy game customization.",
-  //     "Optimized performance with multi-threading and efficient memory management.",
+  //     "The Password Manager Chrome Extension is a secure, browser-based solution built with JavaScript, React, Vite, and TailwindCSS. It provides seamless password generation, encrypted vault storage, and strength analysis directly in the browser. Security features include AES-based encryption, master password protection, 2FA support, and clipboard auto-clear. With a responsive UI, category-based organization, search, and backup options, it balances strong cryptography with a smooth user experience, making password management fast, reliable, and accessible across web sessions.",
   //   ],
   //   href: "",
   //   logo: "",
-  //   image: "/assets/projects/game-engine.jpg",
+  //   image: "/assets/projects/",
   //   tags: [
   //     {
   //       id: 1,
-  //       name: "C++",
-  //       path: "/assets/logos/cplusplus.svg",
+  //       name: "React",
+  //       path: "/assets/logos/react.svg",
   //     },
   //     {
   //       id: 2,
-  //       name: "C#",
-  //       path: "/assets/logos/csharp.svg",
+  //       name: "TailwindCSS",
+  //       path: "/assets/logos/tailwindcss.svg",
   //     },
   //     {
   //       id: 3,
-  //       name: "Git",
-  //       path: "/assets/logos/git.svg",
+  //       name: "Javascript",
+  //       path: "/assets/logos/javascript.svg",
   //     },
   //     {
   //       id: 4,
-  //       name: "Microsoft",
-  //       path: "/assets/logos/microsoft.svg",
+  //       name: "Vite",
+  //       path: "/assets/logos/vitejs.svg",
   //     },
   //   ],
   // },
@@ -180,6 +177,7 @@ export const experiences = [
     contents: [
       "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
       "Created an app using Python, PyQt5 and SQLite for the school Boys Bank.",
+      "Created an extension version of the Password Manager using React, TailwindCSS, Javascript and Vite and uploaded it on Google Web Store.",
       "Created a WebApp for the schools 90th Founders Day (DS90) using NextJs, React, TailwindCSS, Cloudflare and Supabase.",
       "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
     ],
