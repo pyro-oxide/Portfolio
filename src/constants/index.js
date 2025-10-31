@@ -62,43 +62,43 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 3,
-    title: "DS90 Web App",
-    description:
-      "A modern, interactive web application built for the schools 90th Founders Day (DS90).",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "NextJs",
-        path: "/assets/logos/nextjs.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/logos/typescript.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   title: "DS90 Web App",
+  //   description:
+  //     "A modern, interactive web application built for the schools 90th Founders Day (DS90).",
+  //   subDescription: [
+  //     "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
+  //     "Implemented API interactions using .NET Core for a robust backend.",
+  //     "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
+  //     "Integrated SQLite for efficient client-side database storage.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/DS90.png",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "NextJs",
+  //       path: "/assets/logos/nextjs.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "React",
+  //       path: "/assets/logos/react.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "TypeScript",
+  //       path: "/assets/logos/typescript.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "TailwindCSS",
+  //       path: "/assets/logos/tailwindcss.svg",
+  //     },
+  //   ],
+  // },
   // {
   //   id: 4,
   //   title: "Password Manager Google Extension",

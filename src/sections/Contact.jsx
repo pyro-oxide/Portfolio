@@ -71,7 +71,7 @@ const Contact = () => {
             <div className="flex flex-col items-start w-full gap-5 mb-10">
                 <h2 className="text-heading">Let's Talk</h2>
                 <p className="font-normal text-neutral-400">Whether you are looking to build a new website, improve your existing platform, 
-                or bring a unique project to life, im here to help.</p>
+                or bring a unique project to life, I'm here to help.</p>
             </div>
             <form 
             onSubmit={handleSubmit}
@@ -83,7 +83,7 @@ const Contact = () => {
                     id="name" 
                     name="name" 
                     type="text"
-                    placeholder="John Doe" 
+                    placeholder="Samarth Pundeer" 
                     autoComplete="name"
                     value={formData.name}
                     onChange={handleChange}
@@ -97,7 +97,7 @@ const Contact = () => {
                     id="mobileNumber" 
                     name="mobileNumber" 
                     type="tel"
-                    placeholder="+91 98975 41825" 
+                    placeholder="+91 99177 11177" 
                     autoComplete="tel"
                     value={formData.mobileNumber}
                     onChange={handleChange}
@@ -111,7 +111,7 @@ const Contact = () => {
                     id="email" 
                     name="email" 
                     type="email"
-                    placeholder="JohnDoe@gmail.com" 
+                    placeholder="samarth.pundeer@gmail.com" 
                     autoComplete="email"
                     value={formData.email}
                     onChange={handleChange}
@@ -126,7 +126,7 @@ const Contact = () => {
                     name="message" 
                     type="text"
                     rows="4"
-                    placeholder="Share your thoughts" 
+                    placeholder="Write your message here..." 
                     autoComplete="message"
                     value={formData.message}
                     onChange={handleChange}
